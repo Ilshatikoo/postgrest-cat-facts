@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  postgres:
+    build:
+      dockerfile: build/Dockerfile
+    container_name: postgres_cat_cat_facts
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
