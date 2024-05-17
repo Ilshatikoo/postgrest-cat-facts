@@ -112,7 +112,7 @@ grant webuser to authenticator;
 
 На рисунке ниже можно увидеть, как сервер обрабатывает аутентификацию: успешная аутентификация приводит к переключению на роль пользователя, указанную в запросе, в противном случае сервер переключается на анонимную роль.
 
-![roles_img](https://github.com/Ilshatikoo/Cat-Facts-postgrest/blob/main/img/roles.png)
+![roles_img](https://github.com/Ilshatikoo/postgrest-cat-facts/blob/main/img/roles.png)
 
 ## Управление пользователями с помощью SQL
 
